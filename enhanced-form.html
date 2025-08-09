@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Content & Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>HTML5 Content & Form Demonstration</h1>
+        <p>This page showcases HTML5 content features like lists, tables, media, and a fully functional HTML5 form.</p>
+    </header>
+
+    <section>
+        <h2>Popular Web Technologies</h2>
+        <ul>
+            <li>HTML5 - Structure of the web</li>
+            <li>CSS3 - Styling and layouts</li>
+            <li>JavaScript - Interactivity</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Web Development Roadmap</h2>
+        <ol>
+            <li>Learn HTML & CSS</li>
+            <li>Master JavaScript</li>
+            <li>Explore Frameworks</li>
+            <li>Build Projects</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Sample Course Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Duration</th>
+                    <th>Difficulty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>2 Weeks</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>JavaScript Basics</td>
+                    <td>3 Weeks</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Full-Stack Development</td>
+                    <td>8 Weeks</td>
+                    <td>Advanced</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Media Examples</h2>
+        <img src="https://via.placeholder.com/400x200" alt="Placeholder Image"><br><br>
+
+        <video controls width="400">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video><br><br>
+
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="John" required minlength="2"><br><br>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Doe" required minlength="2"><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Account Details</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="username123" required pattern="[A-Za-z0-9]{5,}"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">--Select Country--</option>
+                    <option value="ke">Kenya</option>
+                    <option value="us">United States</option>
+                    <option value="uk">United Kingdom</option>
+                </select><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Info</legend>
+                <label>
+                    <input type="checkbox" name="terms" required> I agree to the terms and conditions
+                </label><br><br>
+
+                <label for="bio">Short Bio:</label><br>
+                <textarea id="bio" name="bio" placeholder="Tell us about yourself..." rows="4" cols="40"></textarea><br><br>
+            </fieldset>
+
+            <input type="submit" value="Submit Form">
+        </form>
+    </section>
+
+    
+
+</body>
+</html>
